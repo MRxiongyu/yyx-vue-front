@@ -1,7 +1,7 @@
 <template>
   <div>
     这是一个测试列表
-    2
+    3
     <ul>
       <li v-for="user in users" :key="user.id">
         {{user.name}}
